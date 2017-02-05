@@ -1,8 +1,8 @@
 SELECT
-  CustomerID AS ID
-, CustomerName AS 名前
+  EmployeeID AS ID
+, EmployeeName AS 名前
 FROM
-  Customers
+  Employees
 INTERSECT
 SELECT
   EmployeeID AS ID
